@@ -30,7 +30,7 @@ public class Looping {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/// TODO Auto-generated method stub
 		Looping loop=new Looping();
 		loop.amount();
 		loop.security(1024);
