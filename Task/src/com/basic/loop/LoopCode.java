@@ -7,7 +7,7 @@ public class LoopCode {
 		int number=10;
 		while(number>=1) {
 			System.out.print(number+" ");
-			number=number-1;//number++
+			number=number-1;///number++
 		}
 
 		
