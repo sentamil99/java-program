@@ -6,7 +6,7 @@ public class Patternbrogrom {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Patternbrogrom pb=new Patternbrogrom();
-		//pb.print12345();
+		///pb.print12345();
 		pb.print1234();
 	}
 
