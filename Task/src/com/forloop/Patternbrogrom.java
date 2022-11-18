@@ -28,7 +28,7 @@ public class Patternbrogrom {
 	}
 
 	private void pattern7() {
-		// TODO Auto-generated method stub
+		// TODO Auto-gener/ated method stub
 		
 	}
 
