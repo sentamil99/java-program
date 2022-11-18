@@ -10,11 +10,12 @@ public class Patternbrogrom {
 		Patternbrogrom pb=new Patternbrogrom();
 		//pb.print12345();
 		//pb.print1234();
-	    //pb.print3();
-		//pb.print1();
+	        //pb.print3();
+		
+//pb.print1();
 		//pb.print2();
-	    //pb.print6();
-	    //pb.print7();
+	        //pb.print6();
+	        //pb.print7();
 		//pb.print8();
 		//pb.print9();
 		//pb.pattern1();
