@@ -6,7 +6,7 @@ public class RecursionPrograms {
 		// TODO Auto-generated method stub
 		RecursionPrograms rp=new RecursionPrograms();
 		//System.out.println(rp.factorial(5));
-		//rp.print1111(4);
+		//rp.print1111(4);//
 		//rp.print1234(1);
 		int prime=rp.primeOrNot(2);
 		if(prime==0) {
