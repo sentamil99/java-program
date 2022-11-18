@@ -19,17 +19,68 @@ public class Patternbrogrom {
 		//pb.print9();
 		//pb.pattern1();
 		//pb.pattern2();
-		pb.pattern3();
+		//pb.pattern3();
+		//pb.pattern4();
+		//pb.pattern5();
+		//pb.pattern6();
+		//pb.pattern7();
+	}
+
+	private void pattern7() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void pattern6() {
+		// TODO Auto-generated method stub
+		for(int row=1;row<=5;row++) {
+			for(int col=1;col<=5-row;col++) {
+				System.out.print(""+" ");
+			}
+			for(int col=row;col>=1;col--) {
+				System.out.print("*"+" ");
+			}
+			System.out.println();
+			
+		}
+	}
+
+	private void pattern4() {
+		// TODO Auto-generated method stub
+		for(int row=1;row<=5;row++) {
+			for(int col=1;col<=5-row;col++) {
+				System.out.print(""+" ");
+			}
+			for(int col=row;col>=1;col--) {
+				System.out.print(col+" ");
+			}
+			System.out.println();
+			
+		}
+	}
+
+	private void pattern5() {
+		// TODO Auto-generated method stub
+		for(int row=1;row<=5;row++) {
+			for(int col=1;col<=5-col;col++) {
+				System.out.print(""+" ");
+			}
+			for(int col=1;col<=row;col++) {
+				System.out.print(row+" ");
+			}
+			System.out.println();
+			
+		}
 	}
 
 	private void pattern3() {
 		// TODO Auto-generated method stub
 		for(int row=1;row<=5;row++) {
 		for(int col=1;col<=5-row;col++) {
-			System.out.print(" "+ " "); 
+			System.out.print(""+ " "); 
 		}
 		for(int col=1;col<=row;col++) {
-			System.out.print(1+ " ");
+			System.out.print(col+ " ");
 		}
 		System.out.println();
 			}
