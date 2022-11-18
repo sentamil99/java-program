@@ -21,7 +21,7 @@ public class Patternbrogrom {
 		//pb.pattern2();
 		//pb.pattern3();
 		//pb.pattern4();
-		//pb.pattern5();
+		pb.pattern5();
 		pb.pattern6();
 		//pb.pattern7();
 	}
