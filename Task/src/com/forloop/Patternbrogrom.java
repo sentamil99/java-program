@@ -1,4 +1,4 @@
-package com.forloop;
+Qpackage com.forloop;
 
 //import com.sun.swing.internal.plaf.synth.resources.synth;
 
@@ -12,7 +12,7 @@ public class Patternbrogrom {
 		//pb.print1234();
 	        //pb.print3();
 		
-//pb.print1();
+              //  pb.print1();
 		//pb.print2();
 	        //pb.print6();
 	        //pb.print7();
