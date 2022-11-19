@@ -13,8 +13,8 @@ public class patternprogram2 {
 		//bro.pattern6();
 		//bro.pattern7();
 		//bro.pattern8();
-		//bro.pattern9();
-		bro.pattern10();
+		bro.pattern9();
+		//bro.pattern10();
 	}
 
 	private void pattern10() {
