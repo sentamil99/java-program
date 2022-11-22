@@ -15,9 +15,9 @@ public class ArrayTask {
 			System.out.println(a[i]);
 		}
 		
-		/*
-		 * System.out.println(a[4]); System.out.println(b[2]);
-		 */
+		
+		 System.out.println(a[4]); System.out.println(b[2]);
+		 
 		
 	}
 
