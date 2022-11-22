@@ -1,4 +1,4 @@
-Qpackage com.forloop;
+package com.forloop;
 
 //import com.sun.swing.internal.plaf.synth.resources.synth;
 
