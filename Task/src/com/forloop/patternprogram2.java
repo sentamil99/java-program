@@ -10,7 +10,7 @@ public class patternprogram2 {
 		//bro.pattern3();
 		//bro.pattern4();
 		//bro.pattern5();
-		//bro.pattern6();
+		////bro.pattern6();
 		//bro.pattern7();
 		//bro.pattern8();
 		//bro.pattern9();
