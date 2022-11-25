@@ -23,10 +23,62 @@ public class ArrayTask {
 		//at.evenIndex();
 		//at.getMark();
 		//at.getBiggest();
-		at.getSmallest();
+		//at.getSmallest();
+		//at.SecondBiggestNO();
+		//at.SecondSmallestNo();
+		at.addofoddindex();
 	}
 	
 	
+	private void addofoddindex() {
+		int ar[]= {1,2,3,4,5,6,7,8};
+		int sum=0;
+		for(int i=0;i<ar.length;i++) {
+			if(i%2!=0) {
+				sum+=ar[i];
+			}
+		}System.out.println(sum);
+	}
+
+
+	private void SecondSmallestNo() {
+		int ar[]= {41,75,34,12,32,18};
+		int small1=Integer.MAX_VALUE;
+		int small2=Integer.MAX_VALUE;
+		for(int i=0;i<ar.length;i++) {
+			if(ar[i]<small1) {
+				small2=small1;
+				small1=ar[i];
+			}
+			else if(ar[i]<small2) {
+				small2=ar[i];
+			}
+		}
+		System.out.println("Smallest NO Is:"+small1);
+		System.out.println("Smallest NO Is:"+small2);
+
+	}
+
+
+	private void SecondBiggestNO() {
+	int ar[]= {54,78,34,66,98};
+	int big1=Integer.MIN_VALUE;
+	int big2=Integer.MIN_VALUE;
+	for(int i=0;i<ar.length;i++) {
+		if(ar[i]>big1) {
+			big2=big1;
+			big1=ar[i];
+		}
+		else if(ar[i]>big2) {
+			big2=ar[i];
+		}
+	}
+	System.out.println("Biggest no is: "+ big1);
+	System.out.println("Biggest no is: "+ big2);
+
+	}
+
+
 	private void getSmallest() {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter no of days");
@@ -51,7 +103,7 @@ public class ArrayTask {
 
 	private void getBiggest() {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Emter no of subject");
+		System.out.println("Enter no of subject");
 		int sub=sc.nextInt();
 		int mark[]=new int [sub];
 		int big=0;
