@@ -26,12 +26,74 @@ public class ArrayTask {
 		//at.getSmallest();
 		//at.SecondBiggestNO();
 		//at.SecondSmallestNo();
-		at.addofoddindex();
+		//at.addofoddindex();
+		//at.copyArrayReverseOrder();
+		//at.negativeNoArray();
+		//at.countOfNegativeNo();
+		//at.copyNegativeNoArray();
+		at.addTwoArray();
 	}
 	
 	
+	private void addTwoArray() {
+	int a[]= {5,8,9,-12};
+	int b []= {-6,-7,2,4};
+	int c[]=new int[b.length];
+	for(int i=0;i<b.length;i++) {
+		c[i]=a[i]+b[i];
+		System.out.print(c[i]+" ");
+	}
+	}
+
+
+	private void copyNegativeNoArray() {
+		int ar[]= {-12,-10,-8,13,14,15}	;
+		int neg[]=new int[ar.length];
+		int j=0;
+		for(int i=0;i<ar.length;i++) {
+			if(ar[i]<0) {
+				neg[j]=ar[i];
+				System.out.print(neg[j]+" ");
+			}
+		}
+	}
+
+
+	private void countOfNegativeNo() {	
+		int ar[]= {-12,-10,-8,13,14,15};
+		int count=0;
+		for(int i=0;i<ar.length;i++) {
+			if(0>ar[i]) {
+				count++;
+			}
+		}
+		System.out.println("No ofcount:"+count);
+	}
+
+
+	private void negativeNoArray() {
+		int ar[]= {-12,-10,-8,13,14,15};
+	    for(int i=0;i<ar.length;i++) {
+		if(0>ar[i]) {
+			System.out.print(ar[i]+" ");
+		}
+		}
+	}
+
+
+	private void copyArrayReverseOrder() {
+		int ar[]= {23,56,67,87,11};
+		int rev[]=new int [ar.length];
+		int j=ar.length-1;
+		for(int i=0;i<ar.length;i++) {
+			rev[i]=ar[j];
+			System.out.print(rev[i]+" ");
+		}
+	}
+
+
 	private void addofoddindex() {
-		int ar[]= {1,2,3,4,5,6,7,8};
+		int ar[]= {1,2,3,4,5,6,7};
 		int sum=0;
 		for(int i=0;i<ar.length;i++) {
 			if(i%2!=0) {
